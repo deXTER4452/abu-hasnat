@@ -4,8 +4,14 @@
 
 .upper-nav{
   background-color: aqua;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  cursor: pointer;
+  
 }
 
-body{
-  background-color: blue;
+li{
+  width: 100px;
+  list-style: none;
 }
