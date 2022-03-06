@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+
+.upper-nav{
+  background-color: aqua;
+}
+
+body{
+  background-color: blue;
+}
