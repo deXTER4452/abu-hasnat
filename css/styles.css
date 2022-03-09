@@ -75,3 +75,24 @@ a{
   align-items:center;
   padding: 10px;
 }
+
+#main{
+  height:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+button{
+  color: brown;
+  background-color: rgb(61, 61, 70);
+  text-transform: uppercase;
+  font-size: 3em;
+  margin: 0 1em;
+}
+
+span{
+  color: rgb(105, 84, 100);
+  font-size: 3em;
+}
