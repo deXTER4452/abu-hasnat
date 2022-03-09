@@ -1,16 +1,15 @@
 {
   "name": "abu",
-   "scripts": {
-   "build:css": "cleancss css/*.css -o dist/css/styles.css"
+  "scripts": {
+    "build:css": "cleancss css/*.css -o dist/css/styles.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/deXTER4452/abu-hasnat.git"
   },
- 
   "author": "Abu Hasnat",
-
   "devDependencies": {
-    "clean-css-cli": "^5.5.2"
+    "clean-css-cli": "^5.5.2",
+    "uglify-js": "^3.15.2"
   }
 }
