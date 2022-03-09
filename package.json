@@ -1,7 +1,7 @@
 {
   "name": "abu",
    "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "build:css": "cleancss css/*.css -o dist/css/styles.css"
   },
   "repository": {
     "type": "git",
