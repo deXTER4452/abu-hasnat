@@ -1,7 +1,10 @@
 {
   "name": "abu",
   "scripts": {
-    "build:css": "cleancss css/*.css -o dist/css/styles.css"
+    
+    "build:css": "cleancss src/css/*.css -o dist/css/styles.css",
+    "build:js": "mkdir -p dist/js && uglifyjs src/js/*.js -o dist/js/app.js"
+    
   },
   "repository": {
     "type": "git",
