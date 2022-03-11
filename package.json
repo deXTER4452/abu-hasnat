@@ -1,12 +1,10 @@
 {
   "name": "abu",
   "scripts": {
-    
     "build:css": "cleancss src/css/*.css -o dist/css/styles.css",
     "build:js": "mkdir -p dist/js && uglifyjs src/js/*.js -o dist/js/app.js",
     "copy:html": "cp src/*.html dist",
     "build:all": "npm run build:css && npm run build:js && npm run copy:html"
-    
   },
   "repository": {
     "type": "git",
@@ -15,6 +13,7 @@
   "author": "Abu Hasnat",
   "devDependencies": {
     "clean-css-cli": "^5.5.2",
+    "mkdirp": "^1.0.4",
     "uglify-js": "^3.15.2"
   }
 }
