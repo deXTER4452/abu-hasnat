@@ -1,33 +1,37 @@
 *{
   box-sizing: border-box;
+  margin: 0;
 }
 
 body{
   background-image: url(../images/background.png);
+  position: relative;
  
 }
 
 .upper-nav{
-  
+  align-items: center;
   background: linear-gradient(90deg,rgb(201, 54, 135),rgb(255, 123, 0));
   box-shadow: 8px 10px 10px grey;
+  cursor: pointer;
   display: flex;
   justify-content: right;
-  align-items: center;
-  cursor: pointer;
+  position:fixed;
+  width: 100%;
+  
   
 }
 
 li{
-  width: 100px;
   list-style: none;
+  width: 100px;
 }
 h1{
-  display: flex;
-  justify-content: center;
   align-items: center;
   color: rgb(91, 30, 148);
+  display: flex;
   font-size: 10em;
+  justify-content: center;
 }
 
 h2{
@@ -42,54 +46,52 @@ p{
 }
 
 img{
-  width: 49%;
   height: 600px;
   padding: 50px;
+  width: 49%;
 }
 a{
   text-decoration: none;
 }
 
 .about{
-  display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .blogs{
-  border: 2px solid rgb(110, 108, 108);
   background-color: rgb(38, 84, 110);
+  border: 2px solid rgb(110, 108, 108);
 }
 
 .phone{
+  align-items:center;
   display: flex;
   justify-content:center;
-  align-items:center;
   padding: 10px;
-
 }
 
 .git{
+  align-items:center;
   display: flex;
   justify-content:center;
-  align-items:center;
   padding: 10px;
 }
 
 #main{
-  height:200px;
-  display: flex;
-  justify-content: center;
   align-items: center;
-
+  display: flex;
+  height:200px;
+  justify-content: center;
 }
 
 button{
-  color: brown;
   background-color: rgb(61, 61, 70);
-  text-transform: uppercase;
+  color: brown;
   font-size: 3em;
   margin: 0 1em;
+  text-transform: uppercase;
 }
 
 span{
