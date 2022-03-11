@@ -4,6 +4,7 @@
     "build:css": "cleancss src/css/*.css -o dist/css/styles.css",
     "build:js": "mkdirp dist/js && uglifyjs src/js/*.js -o dist/js/app.js",
     "copy:html": "cp src/*.html dist",
+    "imagemin": "imagemin src/images/* -o dist/images",
     "build:all": "npm run build:css && npm run build:js && npm run copy:html"
   },
   "repository": {
