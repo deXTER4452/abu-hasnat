@@ -98,3 +98,11 @@ span{
   color: rgb(105, 84, 100);
   font-size: 3em;
 }
+
+html {
+  filter: invert(100%);
+}
+
+html img {
+  filter: invert(100%);
+}
